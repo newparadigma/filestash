@@ -1,0 +1,7 @@
+version: '3'
+services:
+    filestash:
+      image: machines/filestash
+      user: filestash
+      ports:
+      - "80:8334"
